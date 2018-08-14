@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>AngulaRank challenge</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel=stylesheet href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+</head>
+
+<body>
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3"><img src="images/angular.png" class="img-responsive"/>Angular</h1>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <!--Main Tabs-->
+          <ul class="nav nav-pills main-nav" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa fa-address-book-o"></i> Repositories <span class="badge">186</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa fa-users"></i> People <span class="badge">65</span></a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><i class="fa fa-bars"></i> Projects <span class="badge">5</span></a>
+              </li>
+            </ul>
+            <div class="tab-content main-content col-12" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+              	<div id="myRepo">
+                	<!--Repository content goes here-->
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+              	<div id="repoPeople">
+                	<!--Repository content goes here-->
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+              	<div class="col-12">
+                	<ul class="list-group projectList">
+                      <li class="list-group-item d-flex justify-content-between align-items-center list-group-item-info">
+                        
+                        <div class="d-flex w-100 justify-content-between">
+                          <h6 class="mb-1">
+                          	<i class="fa fa-bar-chart"></i><b> 9 Open</b>
+                          	<i class="fa fa-check"></i> 6 Closed
+                          </h6>
+                        </div>
+                      </li>
+                      <li class="list-group-item d-flex flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h6 class="mb-1"><b>Virtual scrolling</b></h6>
+                          <small><i class="fa fa-clock-o"></i> Updated 3 days ago</small>
+                        </div>
+                        <p class="mb-1">No description</p>
+                      </li>
+                      <li class="list-group-item d-flex flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h6 class="mb-1"><b>Paginator</b></h6>
+                          <small><i class="fa fa-clock-o"></i> Updated on Jun 16</small>
+                        </div>
+                        <p class="mb-1">MatPaginator</p>
+                      </li>
+                      <li class="list-group-item d-flex flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h6 class="mb-1"><b>Sort</b></h6>
+                          <small><i class="fa fa-clock-o"></i> Updated on Jun 20</small>
+                        </div>
+                        <p class="mb-1">MatSort, MatSortHeader</p>
+                      </li>
+                      <li class="list-group-item d-flex flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h6 class="mb-1"><b>Tooltips</b></h6>
+                          <small><i class="fa fa-clock-o"></i> Updated on May 05</small>
+                        </div>
+                        <p class="mb-1">MatTooltip</p>
+                      </li>
+                      <li class="list-group-item d-flex flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h6 class="mb-1"><b>Tabs</b></h6>
+                          <small><i class="fa fa-clock-o"></i> Updated 25 days ago</small>
+                        </div>
+                        <p class="mb-1">MatTabGroup, MatTabNavBar, MatInkBar</p>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          <!--Main Tabs End-->
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="repos.json"></script>
+<script type="text/javascript" src="people.json"></script>
+<script>
+$(document).ready(function () {
+	//Repositories
+	var local_data = data;
+	var row_data = '';	
+	for (var i = 0; i < local_data.length; i++) {
+	  var row_data = row_data + '<div class="myRepoContent col-md-4">' +
+		' <div class="repoHeader">' + local_data[i].repo + '</div>' +
+		' <div class="repoContributors"> Contributors' + ' ' +'<div class="repoConTxt"><i class="fa fa-users"></i>' + ' '+ local_data[i].repoContributors+'</div>' + '</div>' +
+		' <div class="repoTxt">' + local_data[i].repoTxt + '</div>' +
+		' <div class="repoL"> <i class="fa fa-language"></i> ' + local_data[i].repoLanguage + '</div>' +
+		' <div class="repoS"> <i class="fa fa-star"></i> ' + local_data[i].repoStars + '</div>' +
+		' <div class="repoF"> <i class="fa fa-code-fork"></i> ' + local_data[i].repoFork + '</div>' +
+		'</div>';
+	}
+	var div_body_element = document.createElement('div');
+	div_body_element.setAttribute("class", "row" );
+	div_body_element.innerHTML = row_data;
+	document.getElementById('myRepo').appendChild(div_body_element);
+	
+	//People data
+	var ppl_data = peopleData;
+	var p_data = '';	
+	for (var i = 0; i < ppl_data.length; i++) {
+	  var p_data = p_data + '<div class="pplContent col-md-2">' +
+		' <div class="pplHeader text-center">' + '<img class="rounded img-fluid img-thumbnail mx-auto" src="' + ppl_data[i].img + '" / >' + '</div>' +
+		' <div class="pplNames">' + ppl_data[i].name + '</div>' +
+		' <div class="pplTitle">' + ppl_data[i].title + '</div>' +
+		' <div class="pplFooter"> <button class="btn btn-block btn-default">Follow</button> </div>' +
+		'</div>';
+	}
+	var div_body_element = document.createElement('div');
+	div_body_element.setAttribute("class", "row" );
+	div_body_element.innerHTML = p_data;
+	document.getElementById('repoPeople').appendChild(div_body_element);
+});
+</script>
+</body>
+</html>

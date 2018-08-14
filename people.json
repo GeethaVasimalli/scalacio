@@ -1,0 +1,37 @@
+var peopleData =[
+  {"img": "images/people/p1.jpg",
+   "name": "Brad Green",
+   "title": "bradlygreen"},
+   
+  {"img": "images/people/p2.jpg",
+   "name": "Brad Green",
+   "title": "bradlygreen"},
+   
+  {"img": "images/people/p3.jpg",
+   "name": "Brad Green",
+   "title": "bradlygreen"},
+   
+  {"img": "images/people/p4.jpg",
+   "name": "Brad Green",
+   "title": "bradlygreen"},
+   
+  {"img": "images/people/p5.jpg",
+   "name": "Brad Green",
+   "title": "bradlygreen"},
+   
+  {"img": "images/people/p6.jpg",
+   "name": "Brad Green",
+   "title": "bradlygreen"},
+   
+  {"img": "images/people/p7.jpg",
+   "name": "Brad Green",
+   "title": "bradlygreen"},
+      
+  {"img": "images/people/p8.jpg",
+   "name": "Brad Green",
+   "title": "bradlygreen"},
+      
+  {"img": "images/people/p9.jpg",
+   "name": "Brad Green",
+   "title": "bradlygreen"},
+]
